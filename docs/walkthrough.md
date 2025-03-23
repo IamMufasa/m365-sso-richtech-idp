@@ -19,7 +19,7 @@ This project demonstrates how to configure a Shibboleth Identity Provider (IdP) 
 | VM | Hostname                          | Purpose                     |
 |----|-----------------------------------|-----------------------------|
 | VM1| idp.richtechuniversity.edu        | Shibboleth IdP              |
-| VM2| ldap.richtechuniversity.edu      | OpenLDAP Server             |
+| VM2| ldap.richtechuniversity.edu       | OpenLDAP Server             |
 
 - Bridged networking used
 - Self-signed SSL certificates enabled for secure HTTPS communication
@@ -40,7 +40,7 @@ sudo apt install slapd ldap-utils
 
 ```bash
 sudo dpkg-reconfigure slapd
-# Base DN: dc=richtetchuniversity,dc=org
+# Base DN: dc=richtetchuniversity,dc=edu
 ```
 
 - Add sample users using `docs/users.ldif`.
@@ -60,7 +60,7 @@ wget https://shibboleth.net/downloads/identity-provider/latest/shibboleth-identi
 
 - Set the entityID:
 ```
-https://idp.richtechuniversity.org/idp/shibboleth
+https://idp.richtechuniversity.edu/idp/shibboleth
 ```
 
 - Configure LDAP connection in `ldap.properties`.
