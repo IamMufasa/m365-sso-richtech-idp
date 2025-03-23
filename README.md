@@ -1,3 +1,4 @@
+
 # Microsoft 365 SAML SSO with Shibboleth IdP – RichTech University
 
 This project demonstrates a full implementation of SAML-based Single Sign-On (SSO) between **RichTech University's** on-premises **Shibboleth Identity Provider (IdP)** and **Microsoft 365 (Azure AD / Entra ID)** cloud services.
@@ -37,6 +38,17 @@ This project was built to showcase practical skills for an **IAM Systems Adminis
 - LDAP integration with IdP
 - Attribute resolution and release policies
 - Realistic lab simulation using `.edu` domains
+
+---
+
+## 🛠️ Skills Acquired
+
+- Configuring SAML-based SSO using Shibboleth and Microsoft Entra ID
+- Mapping and filtering attributes in Shibboleth IdP
+- Integrating LDAP (OpenLDAP) with identity providers
+- Building and managing SAML metadata for IdP and SP
+- Troubleshooting SSO flows using tools like SAML-tracer
+- Designing a federated identity architecture in a simulated university environment
 
 ---
 
