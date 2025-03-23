@@ -44,7 +44,7 @@ This project was built to showcase practical skills for an **IAM Systems Adminis
 
 ## 🧭 Architecture Diagram
 
-![Architecture Diagram](docs/m365-sso-architecture-diagram.png)
+![Architecture Diagram](docs/docs/m365-sso-architecture-diagram.png)
 
 ➡️ [View Full Walkthrough](docs/walkthrough.md)
 
