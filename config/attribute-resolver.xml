@@ -1,0 +1,3 @@
+<AttributeResolver xmlns="urn:mace:shibboleth:2.0:resolver">
+<!-- Attribute resolution config -->
+</AttributeResolver>
