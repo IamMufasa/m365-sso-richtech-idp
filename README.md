@@ -41,6 +41,14 @@ This project was built to showcase practical skills for an **IAM Systems Adminis
 
 ---
 
+
+## 🧭 Architecture Diagram
+
+![Architecture Diagram](docs/m365-sso-architecture-diagram.jpeg)
+
+➡️ [View Full Walkthrough](docs/walkthrough.md)
+
+
 ## 🛠️ Skills Acquired
 
 - Configuring SAML-based SSO using Shibboleth and Microsoft Entra ID
