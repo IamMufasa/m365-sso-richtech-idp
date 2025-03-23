@@ -111,6 +111,29 @@ https://idp.richtechuniversity.edu/idp/shibboleth
 4. SAML assertion sent back to Microsoft
 5. Verify login success and attribute consumption in Azure logs
 
+
+
+
+
+---
+
+## 📘 Lessons Learned
+
+- Proper SAML integration requires close coordination between IdP and SP metadata formats.
+- Testing with SAML-tracer or browser developer tools helps troubleshoot attribute mapping issues.
+- Attribute filtering and release policies must be configured carefully to avoid login failures.
+- OpenLDAP integration into Shibboleth adds flexibility for controlling user identity and attributes in-house.
+- Azure AD requires specific claims like `userPrincipalName`, which may not be present in all directory schemas.
+
+---
+
+## 💡 Recommendations
+
+- Use a test tenant in Microsoft 365 when developing SAML-based integrations to avoid disruptions.
+- Always test with a variety of user roles (e.g., student, faculty, IT admin) to ensure attribute release consistency.
+- Rotate your self-signed certificates or configure Let's Encrypt for more realistic simulations.
+- Store metadata files and configuration under version control (like GitHub) for transparency and audit readiness.
+- If moving to production, consider integrating MFA such as Duo more deeply with login flow customization.
 ---
 
 ## 📚 Official Documentation
@@ -121,5 +144,4 @@ https://idp.richtechuniversity.edu/idp/shibboleth
 - [VMware Workstation](https://www.vmware.com/products/workstation-pro.html)
 
 ---
-
 © 2025 Richie – Project built for IAM Systems Administrator portfolio.
