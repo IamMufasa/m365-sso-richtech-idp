@@ -1,0 +1,3 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://idp.richtechuniversity.org/idp/shibboleth">
+<!-- IdP metadata here -->
+</EntityDescriptor>

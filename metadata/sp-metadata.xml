@@ -1,0 +1,3 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://login.microsoftonline.com/{tenant-id}/saml2">
+<!-- Microsoft 365 SP metadata -->
+</EntityDescriptor>
